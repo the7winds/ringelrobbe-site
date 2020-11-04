@@ -1,0 +1,49 @@
+@import 'colormap';
+
+a {
+  text-decoration: none;
+  color: $link-color;
+
+  &:hover {
+    color: $link-highlighted-color;
+  }
+}
+
+%text-left {
+  text-align: left!important;
+}
+
+%text-right {
+  text-align: right!important;
+}
+
+.col-half {
+  flex: 0 1 50%;
+  max-width: 50%;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns {
+  display: flex;
+}
+
+.selectable {
+  transition-property: background-color;
+  transition-duration: 0.3s;
+
+  &:hover {
+    background-color: $item-highlighted-color;
+    a {
+      color: $link-highlighted-color;
+    }
+  }
+}

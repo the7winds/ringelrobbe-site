@@ -1,0 +1,42 @@
+@import 'colormap';
+
+.articles-column {
+  @extend .col-half;
+  padding: 1em;
+}
+
+.articles-column-title {
+  font-size: 2em;
+  text-align: center!important;
+  margin: 0.5em;
+}
+
+.articles-list {
+  margin: 1em;
+}
+
+.article-item {
+  padding: 1em;
+  display: flex;
+  border-radius: 0.3em;
+
+  .date {
+    border-right: solid 1px black;
+    font-size: 1.2em;
+    flex: 1 0 20.3%;
+    padding-right: 1em;
+    text-align: right;
+  }
+
+  .title-annotation {
+    flex: 1 1 80%;
+    padding-left: 1em;
+    
+    .title {
+      font-size: 1.5em;
+    }
+    .annotation {
+      font: italic 1em "Fira Sans", serif;
+    }
+  }
+}

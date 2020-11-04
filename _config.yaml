@@ -1,0 +1,11 @@
+deutscher_name: "DIE RINGELROBBE"
+russischer_name: "КОЛЬЧАТАЯ НЕРПА"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      source: ""

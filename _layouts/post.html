@@ -1,10 +1,25 @@
 ---
 layout: default
+source: ""
 ---
 
-<h2>{{ page.title }}<h2>
-<h3>{{ page.date | date_to_string }}<h3>
-
 <div>
-{{ content }}
+  <div class="date-title">
+    <div class="date">
+      {{ page.date | date_to_string }}
+    </div>
+    <div class="title">
+      {{ page.title }}
+    </div>
+  </div>
+
+  <div class="source-link">
+    Source: <a href="{{ page.source}}">{{ page.source }}</a>
+
+  </div>
+
+  <div>
+    {{ content }}
+  </div>
+
 </div>

@@ -1,31 +1,14 @@
 ---
 layout: default
+german_column_title: Die deuschen Übersetzungen
+russian_column_title: Переводы на русский
 ---
 
-<div>
-<div>die Ringelrobbe</div>
-<div>Кольчатая нерпа</div>
+<div class="columns">
+  {% include articles-column.html 
+    posts=site.categories.deutsch 
+    column_title=page.german_column_title %}
+  {% include articles-column.html 
+    posts=site.categories.russisch 
+    column_title=page.russian_column_title %}
 </div>
-
-<div>
-    <div>Deutsch</div>
-    <div>
-        <ul>
-            {% for post in site.categories.deutsch %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
-<div>
-
-<div>
-    <div>Русский<div>
-    <div>
-        <ul>
-            {% for post in site.categories.russisch %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-        </ul>
-    <div>
-</div>
-

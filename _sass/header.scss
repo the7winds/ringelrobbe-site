@@ -1,0 +1,57 @@
+@import 'generic';
+
+%header-title {
+  font-size: 3em;
+}
+
+%any-header {
+  font-size: 3em;
+  @extend .col-half;
+}
+
+.german-header {
+  @extend %any-header;
+  @extend %text-right;
+}
+
+.russian-header {
+  @extend %any-header;
+  @extend %text-left;
+}
+
+.header {
+  display: flex;
+  padding: 1em;
+}
+
+.header-divider {
+  border-left: 1px solid $header-text-color;
+  border-right: 1px solid $header-text-color;
+  min-height: 100%;
+  flex: 0 0 0%;
+  margin: 0 1em 0 1em;
+}
+
+header {
+  color: $header-text-color;
+  padding: 1em;
+  background-color: $header-background-color;
+
+  // position: sticky;
+  // top: 0;
+
+  a {
+    color: $header-text-color;
+    padding: 0.5em;
+    border-radius: 1em;
+
+    transition-property: background-color;
+    transition-duration: 0.2s;
+
+    &:hover {
+      padding: 0.5em;
+      background-color: $header-text-color;
+      color: $header-background-color;
+    }
+  }
+}

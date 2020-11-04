@@ -1,0 +1,14 @@
+<div class="article-item selectable">
+  <div class="date">
+      {{ include.post.date | date_to_string }}
+  </div>
+
+  <div class="title-annotation">
+    <a href="{{ post.url }}" class="title">
+      {{ include.post.title }}
+    </a>
+    <div class="annotation">
+      {{ include.post.excerpt }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+.date-title {
+  display: flex;
+  padding: 1em 0 1em 0;
+
+  .date {
+    border-right: solid 1px black;
+    font-size: 1.2em;
+    font-style: italic;
+    flex: 1 0 8.3%;
+    padding-right: 1em;
+    text-align: right;
+  }
+    
+  .title {
+    padding-left: 1em;
+    flex: 1 0 91.7%;
+    font-size: 2em;
+    font-weight: bold;
+  }
+}
+
+.source-link {
+  font-style: italic;
+}
