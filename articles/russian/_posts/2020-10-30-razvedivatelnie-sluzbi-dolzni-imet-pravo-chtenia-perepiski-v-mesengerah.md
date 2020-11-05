@@ -40,10 +40,10 @@ Beide hätten bei den verdeckt und im Gefahrenvorfeld agierenden Nachrichtendien
 
 ## Комментарии
 1. Средств контроля телекоммуникаций источника (ориг.: Quellen-TKÜ), краткое описание наводит на мысли,
-что это буквально прослушивающий код, встроенный производителем ПО
-https://www.bka.de/DE/UnsereAufgaben/Ermittlungsunterstuetzung/Technologien/QuellentkueOnlinedurchsuchung/quellentkueOnlinedurchsuchung_node.html
-https://de.wikipedia.org/wiki/Telekommunikationsüberwachung#Quellen-Telekommunikationsüberwachung
+что это буквально прослушивающий код, встроенный производителем ПО.
+    * [BKA: Quellen-Telekommunikationsüberwachung](https://www.bka.de/DE/UnsereAufgaben/Ermittlungsunterstuetzung/Technologien/QuellentkueOnlinedurchsuchung/quellentkueOnlinedurchsuchung_node.html)
+    * [WIKI: Quellen-Telekommunikationsüberwachung](https://de.wikipedia.org/wiki/Telekommunikationsüberwachung#Quellen-Telekommunikationsüberwachung)
 2. Интернет-обыск (ориг.: Onlinedurchsuchung) — меры по скрытому мониторингу данных на компьютере подозреваемого посредством трояна
-https://de.wikipedia.org/wiki/Online-Durchsuchung_(Deutschland)
+    * [WIKI: Online-Durchsuchung]( https://de.wikipedia.org/wiki/Online-Durchsuchung_(Deutschland) )
 3. Христианско-демократический союз (ориг: CDU) — политическая партия Германии.
-https://ru.wikipedia.org/wiki/Бундестаг
+    * [WIKI: Бундестаг](https://ru.wikipedia.org/wiki/Бундестаг)
