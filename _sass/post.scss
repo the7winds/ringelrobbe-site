@@ -21,4 +21,12 @@
 
 .source-link {
   font-style: italic;
+  font-size: 1.1em;
+  span {
+    font-weight: bold;
+  }
+}
+
+.excerpt {
+  font-style: italic;
 }

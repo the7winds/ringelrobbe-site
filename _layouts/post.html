@@ -15,11 +15,14 @@ source: ""
 
   <div class="post-container">
     <div class="source-link">
-      Source: <a href="{{ page.source}}">{{ page.source }}</a>
+      <span>Source:</span> <a href="{{ page.source}}">{{ page.source }}</a>
     </div>
-    <div>
-      {{ content }}
-    </div>
+    <p class="excerpt">
+      {{ page.excerpt }}
+    </p>
+
+    {{ page.content }}
+
   </div>
 
 </div>
