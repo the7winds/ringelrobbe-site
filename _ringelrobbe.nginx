@@ -1,0 +1,7 @@
+server {
+    listen 80;
+    server_name ringelrobbe.xyz www.ringelrobbe.xyz;
+
+    root /www/ringelrobbe;
+}
+
