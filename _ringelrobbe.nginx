@@ -8,21 +8,20 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/ringelrobbe.xyz/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+    add_header Strict-Transport-Security max-age=63072000 always;
+    add_header Content-Security-Policy "default-src 'none';
+                                        style-src 'self' https://fonts.googleapis.com;
+                                        font-src https://fonts.gstatic.com;";
+    add_header X-Content-Type-Options nosniff;
+    add_header X-Frame-Options DENY;
 }
 
 server {
-    if ($host = www.ringelrobbe.xyz) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = ringelrobbe.xyz) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    listen 80;
     server_name ringelrobbe.xyz www.ringelrobbe.xyz;
 
-    return 404; # managed by Certbot
+    listen 80;
+
+    return 301 https://$host$request_uri;
 }
