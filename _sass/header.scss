@@ -1,36 +1,6 @@
-@import 'generic';
-
-%header-title {
-  font-size: 3em;
-}
-
-%any-header {
-  font-size: 3em;
-  @extend .col-half;
-}
-
-.german-header {
-  @extend %any-header;
-  @extend %text-right;
-}
-
-.russian-header {
-  @extend %any-header;
-  @extend %text-left;
-}
-
-.header {
-  display: flex;
-  padding: 1em;
-}
-
-.header-divider {
-  border-left: 1px solid $header-text-color;
-  border-right: 1px solid $header-text-color;
-  min-height: 100%;
-  flex: 0 0 0%;
-  margin: 0 1em 0 1em;
-}
+@import 'base';
+@import 'utils';
+@import 'fonts';
 
 header {
   color: $header-text-color;
@@ -39,6 +9,28 @@ header {
 
   // position: sticky;
   // top: 0;
+
+  .title-container {
+    padding: 1em 0;
+
+    .title {
+      font-size: 3em;
+
+      &:not(:last-child) {
+        display: flex;
+        justify-content: flex-end;
+
+        &::after {
+          content: '';
+          position: relative;
+          left: $default-padding;
+          min-width: 1px;
+          height: 100%;
+          background-color: $header-text-color;
+        }
+      }
+    }
+  }
 
   a {
     color: $header-text-color;
@@ -52,6 +44,24 @@ header {
       padding: 0.5em;
       background-color: $header-text-color;
       color: $header-background-color;
+    }
+  }
+
+  li {
+    display: flex;
+    &:not(:last-child) {
+      align-content: center;
+      align-items: center;
+
+      &::after {
+        content: '';
+        position: relative;
+        left: 4px;
+        min-width: 4px;
+        height: 4px;
+        border-radius: 4px;
+        background-color: $header-text-color;
+      }
     }
   }
 }

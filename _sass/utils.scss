@@ -1,40 +1,9 @@
-@import 'colormap';
-
-a {
-  text-decoration: none;
-  color: $link-color;
-
-  &:hover {
-    color: $link-highlighted-color;
-  }
-}
-
-%text-left {
+.text-left {
   text-align: left!important;
 }
 
-%text-right {
+.text-right {
   text-align: right!important;
-}
-
-.col-half {
-  flex: 0 1 50%;
-  max-width: 50%;
-}
-
-body {
-  margin: 0;
-  overflow-y: scroll;
-}
-
-.container {
-  max-width: 60rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.columns {
-  display: flex;
 }
 
 .selectable {

@@ -1,14 +1,17 @@
 <div class="article-item selectable">
-  <div class="date">
+  <div class="columns">
+    <div class="date col-1-5th">
       {{ include.post.date | date_to_string }}
+    </div>
+    <div class="title col-4-5th">
+      <a href="{{ post.url }}" class="title">
+        {{ include.post.title }}
+      </a>
+    </div>
   </div>
-
-  <div class="title-annotation">
-    <a href="{{ post.url }}" class="title">
-      {{ include.post.title }}
-    </a>
+  {% if include.post.excerpt != "" %}
     <div class="annotation">
       {{ include.post.excerpt }}
     </div>
-  </div>
+  {% endif %}
 </div>

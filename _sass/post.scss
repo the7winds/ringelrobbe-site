@@ -1,6 +1,6 @@
 .date-title {
   display: flex;
-  padding: 1em 0 1em 0;
+  padding: 1em 0 2em 0;
 
   .date {
     border-right: solid 1px black;
@@ -13,6 +13,7 @@
     
   .title {
     padding-left: 1em;
+    margin: 0;
     flex: 1 0 91.7%;
     font-size: 2em;
     font-weight: bold;
@@ -29,4 +30,8 @@
 
 .excerpt {
   font-style: italic;
+}
+
+.title {
+  
 }

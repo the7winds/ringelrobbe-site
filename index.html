@@ -4,11 +4,30 @@ german_column_title: Die deuschen Übersetzungen
 russian_column_title: Переводы на русский
 ---
 
-<div class="columns">
-  {% include articles-column.html 
-    posts=site.categories.german
-    column_title=page.german_column_title %}
-  {% include articles-column.html 
-    posts=site.categories.russian
-    column_title=page.russian_column_title %}
+<div class="container">
+  <div class="columns">
+    <div class="col-half">
+      <h2 class="articles-list-title">
+        {{ page.german_column_title }}
+      </h2>
+    </div>
+    <div class="col-half">
+      <h2 class="articles-list-title">
+        {{ page.russian_column_title }}
+      </h2>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col-half articles-list">
+      {% for post in site.categories.german %}
+        {% include article-item.html post=post %}
+      {% endfor %}
+    </div>
+
+    <div class="col-half articles-list">
+      {% for post in site.categories.russian %}
+        {% include article-item.html post=post %}
+      {% endfor %}
+    </div>
 </div>

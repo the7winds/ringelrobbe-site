@@ -1,0 +1,57 @@
+@import 'colormap';
+
+$default-padding: 16px;
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-y: scroll;
+}
+
+main {
+  padding: 0 $default-padding;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+
+  &:hover {
+    color: $link-highlighted-color;
+  }
+}
+
+.container {
+  max-width: 1024px;
+  padding: $default-padding;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col-half {
+    padding: 0 $default-padding;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-1-5th {
+    padding: 0 $default-padding;
+    flex: 0 0 20%;
+    max-width: 20%; 
+  }
+
+  .col-4-5th {
+    padding: 0 $default-padding;
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
+
