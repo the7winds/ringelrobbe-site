@@ -1,43 +1,5 @@
-@font-face {
-  font-family: 'HeaderTitleFont';
-  src: url('/assets/fonts/Yeseva_One/YesevaOne-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300;1,400&family=Playfair+Display:wght@400;700&family=Yeseva+One&display=swap');
 
-@font-face {
-  font-family: 'RegularFont';
-  src: url('/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'RegularFont';
-  src: url('/assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
-  font-style: normal;
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'RegularFont';
-  src: url('/assets/fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');
-  font-style: italic;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'RegularFont';
-  src: url('/assets/fonts/Montserrat/Montserrat-LightItalic.ttf') format('truetype');
-  font-style: italic;
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'TitleFont';
-  src: url('/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TitleFont';
-  src: url('/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf') format('truetype');
-  font-weight: bold;
-}
+$HeaderTitleFont: 'Yeseva One';
+$TitleFont: 'Playfair Display';
+$RegularFont: 'Montserrat';

@@ -14,7 +14,7 @@ header {
     padding: 1em 0;
 
     .title {
-      font-family: 'HeaderTitleFont';
+      font-family: $HeaderTitleFont;
       font-size: 3em;
 
       &:not(:last-child) {
@@ -38,7 +38,7 @@ header {
     justify-content: center;
 
     * {
-      font-family: 'TitleFont';
+      font-family: $TitleFont;
     }
 
     a {

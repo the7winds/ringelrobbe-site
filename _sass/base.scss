@@ -6,7 +6,7 @@ $default-padding: 16px;
 
 * {
   box-sizing: border-box;
-  font-family: 'RegularFont';
+  font-family: $RegularFont;
 }
 
 body {
