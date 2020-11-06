@@ -1,6 +1,8 @@
 ---
 title: Разведывательные службы должны иметь право чтения переписки в Мессенджерах
-source: https://www.zeit.de/digital/2020-10/telekommunikationsueberwachung-messenger-apps-geheimdienst-bundeskabinett-befugnisse-mad-whatsapp-quellen-tkue
+source:
+  name: Die Zeit - Geheimdienste sollen in Messenger-Apps mitlesen dürfen
+  url: https://www.zeit.de/digital/2020-10/telekommunikationsueberwachung-messenger-apps-geheimdienst-bundeskabinett-befugnisse-mad-whatsapp-quellen-tkue
 excerpt: >
   Cлужба защиты конституции Германии, Разведывательная служба и Служба военной безопасности должны в целях борьбы с терроризмом получить новые полномочия.
   Большинство политиков считают это решение верным, однако Свободная демократическая партия видит в этом "ликвидацию гражданских прав".

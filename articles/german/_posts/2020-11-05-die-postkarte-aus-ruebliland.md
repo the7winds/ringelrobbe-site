@@ -1,6 +1,8 @@
 ---
 title: Die Postkarte aus Rübliland
-source: https://arzamas.academy/micro/postcard/13
+source:
+  name: Arzamas - Из страны морковок
+  url: https://arzamas.academy/micro/postcard/13
 ---
 
 Rübliland ist ein informeller Name von schweizerischem Kanton Ааргау.
