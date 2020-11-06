@@ -1,14 +1,43 @@
 @font-face {
+  font-family: 'HeaderTitleFont';
+  src: url('/assets/fonts/Yeseva_One/YesevaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RegularFont';
+  src: url('/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RegularFont';
+  src: url('/assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'RegularFont';
+  src: url('/assets/fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RegularFont';
+  src: url('/assets/fonts/Montserrat/Montserrat-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100;
+}
+
+@font-face {
   font-family: 'TitleFont';
-  src: url('/assets/fonts/Staatliches/Staatliches-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'TitleFont1';
-  src: url('/assets/fonts/Oswald/Oswald-VariableFont_wght.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
-
-@font-face {
-  font-family: 'TitleFont2';
-  src: url('/assets/fonts/Spectral_SC/SpectralSC-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  font-family: 'TitleFont';
+  src: url('/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf') format('truetype');
+  font-weight: bold;
 }
