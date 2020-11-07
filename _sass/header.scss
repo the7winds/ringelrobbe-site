@@ -44,6 +44,7 @@ header {
     a {
       color: $header-text-color;
       padding: 0.5em;
+      border-style: none;
       border-radius: 1em;
   
       transition-property: background-color;
