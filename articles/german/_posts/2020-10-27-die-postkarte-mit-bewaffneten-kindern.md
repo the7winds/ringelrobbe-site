@@ -1,6 +1,9 @@
 ---
 title: Die Postkarte mit bewaffneten Kindern
-source: https://arzamas.academy/micro/postcard/19
+source:
+  name: >
+    Arzamas - Открытка дня: с вооруженными детьми
+  url: https://arzamas.academy/micro/postcard/24
 ---
 
 Vladimir Taburin war Artist, Illustrator, Kriegsreporter, Fotograf, Schriftsteller.

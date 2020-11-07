@@ -1,6 +1,9 @@
 ---
 title: Die Postkarte mit österlichen Hexen
-source: https://arzamas.academy/micro/postcard/19
+source:
+  name: >
+    Arzamas - Открытка для: с пасхальными ведьмами
+  url: https://arzamas.academy/micro/postcard/19
 ---
 
 In Schweden und Finland sind Hexen ein gewohnter Teil vom Oster, wie Hasen, Kuchen und Eier in anderen Länder.

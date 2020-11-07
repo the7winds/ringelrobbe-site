@@ -1,6 +1,9 @@
 ---
 title: Die Postkarte, die von Tolkien gezeichnet ist.
-source: https://arzamas.academy/micro/postcard/1
+source:
+  name: >
+    Arzamas - Открытка дня: нарисованная Толкином
+  url: https://arzamas.academy/micro/postcard/1
 ---
 
 Diese Weihnachtspostkarte ist von John Ronald Reuel Tolkien für seine Kinder mit eigener Hand gezeichnet.

@@ -1,7 +1,8 @@
 ---
 title: Die Postkarte aus Rübliland
 source:
-  name: Arzamas - Из страны морковок
+  name: >
+    Arzamas - Открытка дня: из страны морковок
   url: https://arzamas.academy/micro/postcard/13
 ---
 

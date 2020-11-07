@@ -1,6 +1,9 @@
 ---
 title: Die Postkarte mit einem Kaiser, der einen Arsch anstatt Gesichts hat.
-source: https://arzamas.academy/micro/postcard/16
+source:
+  name: >
+    Arzamas - Открытка дня: с императором, у которого вместо лица задница
+  url: https://arzamas.academy/micro/postcard/16
 ---
 
 Diese Drehbarpostkarte hat kein Datum, aber man kann vermuten, dass sie wahrend des ersten Weltkriegs herausgegeben wurde.

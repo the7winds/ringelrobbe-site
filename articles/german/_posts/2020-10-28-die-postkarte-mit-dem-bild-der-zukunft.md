@@ -1,6 +1,9 @@
 ---
 title: Die Postkarte mit dem Bild der Zukunft
-source: https://arzamas.academy/micro/postcard/6
+source:
+  name: >
+    Arzamas - Открытка дня: с изображением будущего
+  url: https://arzamas.academy/micro/postcard/6
 ---
 
 Dieses Bildchen von der Serie "2000 Jahr" wurde zum Eröffnung der Weltausstellung in Paris gedruckt, die 1900 stattfand.
