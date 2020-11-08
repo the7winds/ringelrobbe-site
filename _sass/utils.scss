@@ -30,8 +30,20 @@
 
 .title {
   font-family: $TitleFont;
+  * {
+    font-family: inherit;
+  }
 }
 
 .date {
   font-family: $TitleFont;
+  * {
+    font-family: inherit;
+  }
+}
+
+@media (max-width: $tablet-width - 1) {
+  .post-container {
+    width: 90%;
+  }
 }

@@ -4,13 +4,13 @@ source: ""
 ---
 
 <div class="container">
-  <div class="date-title">
+  <div class="columns date-title">
     <div class="date">
       {{ page.date | date_to_string }}
     </div>
-    <h1 class="title">
-      {{ page.title }}
-    </h1>
+    <div class="title">
+      <h1>{{ page.title }}</h1>
+    </div>
   </div>
 
   <div class="post-container">
@@ -21,7 +21,9 @@ source: ""
       {{ page.excerpt }}
     </p>
 
-    {{ page.content }}
+    <article>
+      {{ page.content }}
+    </article>
 
   </div>
 

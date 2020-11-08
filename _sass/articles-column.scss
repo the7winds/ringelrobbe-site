@@ -34,3 +34,9 @@
     }
   }
 }
+
+@media (max-width: $tablet-width) {
+  .articles-list .article-item .date {
+    font-size: 1em;
+  }
+}

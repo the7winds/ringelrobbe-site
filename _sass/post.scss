@@ -1,22 +1,50 @@
+@import 'base';
+
 .date-title {
-  display: flex;
   padding: 1em 0 2em 0;
 
   .date {
+    flex: 0 0 10%;
+    max-width: 10%;
+
     border-right: solid 1px black;
     font-size: 1.2em;
     font-style: italic;
-    flex: 1 0 8.3%;
-    padding-right: 1em;
+    padding: 0 1em 0 0;
     text-align: right;
   }
     
   .title {
-    padding-left: 1em;
-    margin: 0;
-    flex: 1 0 91.7%;
-    font-size: 2em;
+    flex: 0 0 90%;
+    max-width: 90%;
+
+    padding: 0 0 0 1em;
     font-weight: bold;
+    h1 {
+      margin: 0;
+    }
+  }
+}
+
+
+article {
+  overflow: hidden;
+}
+
+
+@media (max-width: $tablet-width - 1) {
+  .date-title {
+    .title {
+      flex: 0 0 80%;
+      max-width: 80%;
+      h1 {
+        font-size: 1.2em;
+      }
+    }
+    .date {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
   }
 }
 
@@ -31,4 +59,5 @@
 .excerpt {
   font-style: italic;
   font-weight: lighter;
+  margin-bottom: 0;
 }

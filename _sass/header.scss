@@ -4,19 +4,21 @@
 
 header {
   color: $header-text-color;
-  padding: 1em;
   background-color: $header-background-color;
 
   // position: sticky;
   // top: 0;
 
   .title-container {
-    padding: 1em 0;
+    padding-top: $default-padding;
+    font-family: $HeaderTitleFont;
+    font-size: 3em;
+
+    * {
+      font-family: inherit;
+    }
 
     .title {
-      font-family: $HeaderTitleFont;
-      font-size: 3em;
-
       &:not(:last-child) {
         display: flex;
         justify-content: flex-end;
@@ -33,74 +35,83 @@ header {
     }
   }
 
-  nav {
+  @media (max-width: $tablet-width) {
+    .title-container {
+      font-size: 6vw;
+    }
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: $header-background-color;
+  padding: $default-padding / 2;
+
+  * {
+    font-family: $TitleFont;
+  }
+
+  a {
+    color: $header-text-color;
+    padding: 0.5em;
+    border-style: none;
+    border-radius: 1em;
+
+    transition-property: background-color;
+    transition-duration: 0.2s;
+
+    &:hover {
+      padding: 0.5em;
+      background-color: $header-text-color;
+      color: $header-background-color;
+    }
+  }
+
+  ul {
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 
-    * {
-      font-family: $TitleFont;
-    }
-
-    a {
-      color: $header-text-color;
-      padding: 0.5em;
-      border-style: none;
-      border-radius: 1em;
-  
-      transition-property: background-color;
-      transition-duration: 0.2s;
-  
-      &:hover {
-        padding: 0.5em;
-        background-color: $header-text-color;
-        color: $header-background-color;
-      }
-    }
-  
-    ul {
+    li {
       display: flex;
-      justify-content: center;
-      padding: 0;
+      list-style: none;
+      text-transform: uppercase;
+      padding: 0 8px;
 
-      li {
-        display: flex;
-        list-style: none;
-        text-transform: uppercase;
-        padding: 0 8px;
-    
-        &:not(:last-child) {
-          align-content: center;
-          align-items: center;
-    
-          &::after {
-            content: '';
-            position: relative;
-            left:10px;
-            min-width: 4px;
-            height: 4px;
-            border-radius: 4px;
-            background-color: $header-text-color;
-          }
+      &:not(:last-child) {
+        align-content: center;
+        align-items: center;
+
+        &::after {
+          content: '';
+          position: relative;
+          left:10px;
+          min-width: 4px;
+          height: 4px;
+          border-radius: 4px;
+          background-color: $header-text-color;
         }
       }
     }
+  }
 
-    .left-divider {
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 2.5px 200px 2.5px 0;
-      border-color: transparent $header-text-color transparent transparent;
-      align-self: center;
-    }
+  .left-divider {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 2.5px 15vw 2.5px 0;
+    border-color: transparent $header-text-color transparent transparent;
+    align-self: center;
+  }
 
-    .right-divider {
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 2.5px 0 2.5px 200px;
-      border-color: transparent transparent transparent $header-text-color;
-      align-self: center;
-    }
+  .right-divider {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 2.5px 0 2.5px 15vw;
+    border-color: transparent transparent transparent $header-text-color;
+    align-self: center;
   }
 }

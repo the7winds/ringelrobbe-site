@@ -1,5 +1,7 @@
-deutscher_name: "DIE RINGELROBBE"
-russischer_name: "КОЛЬЧАТАЯ НЕРПА"
+german_name: "DIE&nbspRINGELROBBE"
+german_splitted_name: "DIE&nbspRINGEL ROBBE"
+russian_name: "КОЛЬЧАТАЯ&nbspНЕРПА"
+russian_splitted_name: "КОЛЬЧАТАЯ НЕРПА"
 
 defaults:
   -

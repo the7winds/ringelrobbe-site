@@ -5,29 +5,39 @@ russian_column_title: Переводы на русский
 ---
 
 <div class="container">
-  <div class="columns">
-    <div class="col-half">
-      <h2 class="articles-list-title title">
-        {{ page.german_column_title }}
-      </h2>
+  <div class="tablet-visible laptop-visible">
+    <div class="columns">
+      <div class="col-half">
+        <h2 class="articles-list-title title">
+          {{ page.german_column_title }}
+        </h2>
+      </div>
+      <div class="col-half">
+        <h2 class="articles-list-title title">
+          {{ page.russian_column_title }}
+        </h2>
+      </div>
     </div>
-    <div class="col-half">
-      <h2 class="articles-list-title title">
-        {{ page.russian_column_title }}
-      </h2>
+
+    <div class="columns">
+      <div class="col-half articles-list">
+        {% for post in site.categories.german %}
+          {% include article-item.html post=post %}
+        {% endfor %}
+      </div>
+
+      <div class="col-half articles-list">
+        {% for post in site.categories.russian %}
+          {% include article-item.html post=post %}
+        {% endfor %}
+      </div>
     </div>
   </div>
-
-  <div class="columns">
-    <div class="col-half articles-list">
-      {% for post in site.categories.german %}
+  <div class="mobile-visible">
+    <div class="articles-list">
+      {% for post in site.posts %}
         {% include article-item.html post=post %}
       {% endfor %}
     </div>
-
-    <div class="col-half articles-list">
-      {% for post in site.categories.russian %}
-        {% include article-item.html post=post %}
-      {% endfor %}
-    </div>
+  </div>
 </div>

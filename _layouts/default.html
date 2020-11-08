@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
@@ -11,21 +12,26 @@
 
     <header>
       <div class="title-container columns">
-        <div class="col-half title text-right">{{ site.deutscher_name }}</div>
-        <div class="col-half title text-left">{{ site.russischer_name }}</div>
+        <div class="col-half title text-right">
+          <span class="laptop-visible">{{ site.german_name }}</span>
+          <span class="mobile-visible tablet-visible">{{ site.german_splitted_name }}</span>
+        </div>
+        <div class="col-half title text-left">
+          <span class="laptop-visible">{{ site.russian_name }}</span>
+          <span class="mobile-visible tablet-visible">{{ site.russian_splitted_name }}</span>
+        </div>
       </div>
-
       <nav>
         <div class="left-divider"></div>
-        <ul>
-          {% for item in site.data.navigation %}
-            <li>
-              <a href="{{ item.link }}">
-                {{ item.name }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
+          <ul>
+            {% for item in site.data.navigation %}
+              <li>
+                <a href="{{ item.link }}">
+                  {{ item.name }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
         <div class="right-divider"></div>
       </nav>
     </header>
