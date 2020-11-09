@@ -12,3 +12,8 @@ defaults:
       layout: "post"
       source: ""
       excerpt: ""
+
+url: "https://ringelrobbe.xyz"
+
+plugins:
+  - jekyll-sitemap
