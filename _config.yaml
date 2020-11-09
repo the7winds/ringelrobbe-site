@@ -12,8 +12,23 @@ defaults:
       layout: "post"
       source: ""
       excerpt: ""
+  -
+    scope:
+      path: ""
+    values:
+      image: /assets/site-image.png
 
 url: "https://ringelrobbe.xyz"
 
+title: Die Ringelrobbe - Кольчатая нерпа
+tagline: Blog für Sprachpraxis
+description: Die Übersetzungen aus dem Russichen und umgekehrt. Переводы с немецкого на русский и обратно.
+logo: /assets/site-image.png
+twitter:
+  username: ringelr0bbe
+  card: summary
+
+
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
