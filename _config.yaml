@@ -23,10 +23,17 @@ url: "https://ringelrobbe.xyz"
 title: Die Ringelrobbe - Кольчатая нерпа
 tagline: Blog für Sprachpraxis
 description: Die Übersetzungen aus dem Russichen und umgekehrt. Переводы с немецкого на русский и обратно.
+
 logo: /assets/site-image.png
+
+author: Die Ringelrobbe
+
 twitter:
   username: ringelr0bbe
   card: summary
+
+webmaster_verifications:
+  google: JUCToRj8k-mYn4pVdJTqTOmiu40oM06U9-yNrxqkU7E
 
 
 plugins:
