@@ -23,7 +23,7 @@ excerpt: >
 В своём втором англоязычном альбоме 33-х летняя жительница Берлина отказывается от привычной ей отчуждённости,
 и в то же время укрепляет свои позиции, не только немецкой исполнительницы, но и международной.
 
-<iframe class="bandcamp" style="height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=171223860/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/" seamless><a href="https://stellasommer.bandcamp.com/album/northern-dancer">Northern Dancer by Stella Sommer</a></iframe>
+<iframe class="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=171223860/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/" seamless><a href="https://stellasommer.bandcamp.com/album/northern-dancer">Northern Dancer by Stella Sommer</a></iframe>
 
 Пение Стеллы, ранее часто украшавшее инди-рок или раздававшееся удаляющимся эхом,
 больше не оказывает влияние чего-то дивного, удалённого, но ассоциируется с чем-то тёплым и личным.
