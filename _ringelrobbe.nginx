@@ -13,11 +13,11 @@ server {
 
     add_header Strict-Transport-Security max-age=63072000 always;
     add_header Content-Security-Policy "default-src 'none';
-                                        style-src 'self' https://fonts.googleapis.com;
+                                        style-src 'self' https://fonts.googleapis.com 'sha256-5OPhQ1/GPRFH47UiqGiQOfOPyiXdwCgMujNjlxX5WYI=';
                                         font-src https://fonts.gstatic.com;
                                         img-src 'self';
                                         manifest-src 'self';
-                                        frame-src https://bandcamp.com;";
+                                        frame-src https://bandcamp.com;"; 
     add_header X-Content-Type-Options nosniff;
     add_header X-Frame-Options DENY;
 }
