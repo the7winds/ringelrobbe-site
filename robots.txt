@@ -1,5 +1,5 @@
 ---
 ---
 User-agent: *
-Disallow: /assets/
+Disallow: /assets/css
 Sitemap: {{ "sitemap.xml" | absolute_url }}
