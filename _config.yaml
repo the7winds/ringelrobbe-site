@@ -39,6 +39,10 @@ webmaster_verifications:
   yandex: 0799069c2f9a48e4
 
 
+contacts:
+  twitter: https://twitter.com/ringelr0bbe
+  telegram: https://t.me/ringelrobbe
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
