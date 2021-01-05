@@ -17,6 +17,17 @@ defaults:
       path: ""
     values:
       image: /assets/site-image.png
+  -
+    scope:
+      path: articles/german
+    values:
+      locale: de_DE
+  -
+    scope:
+      path: articles/russian
+    values:
+      locale: ru_RU
+
 
 permalink: pretty
 
